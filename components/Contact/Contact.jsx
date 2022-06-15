@@ -16,7 +16,7 @@ const Contact = () => {
         <div className="phone me-2">
           <p className="mx-1 my-auto font-14">
             <MdPhone color="#0087FF" size="1.5em" className="me-1" />{" "}
-            <span className="text-muted">7/24 {t("call")}</span> 0532 328 3867
+            <span className="text-muted">7/24 {t("call")}</span> 0532 058 9978
           </p>
         </div>
         <div className="call-us font-14 me-4">{t("callUs")} </div>

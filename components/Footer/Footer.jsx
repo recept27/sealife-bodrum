@@ -47,7 +47,7 @@ const Footer = () => {
                 <MdOutlineHeadsetMic size="26px" />
               </div>
               <div className="footer-icon-text">
-                <span className="footer-phone">0532 328 3867</span>{" "}
+                <span className="footer-phone">0532 058 99 78</span>{" "}
               </div>
             </div>
           </div>

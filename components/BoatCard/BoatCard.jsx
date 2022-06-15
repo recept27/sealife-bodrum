@@ -79,7 +79,7 @@ const BoatCard = ({ boatimg, boatname, url, height, food, capacity, phone }) => 
             <a className="btn btn-primary text-white">{t("Review")} </a>
           </Link>
           <Link
-            href={`https://api.whatsapp.com/send/?phone=${phone ?? '+905323283867'}&text=Merhaba%2C+${
+            href={`https://api.whatsapp.com/send/?phone=${phone ?? '+905320589978'}&text=Merhaba%2C+${
               boatname ?? "hizmetleriniz"
             }+hakk%C4%B1nda+bilgi+almak+istiyorum.&app_absent=0`}
           >
