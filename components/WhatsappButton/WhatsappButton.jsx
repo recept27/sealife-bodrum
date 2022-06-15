@@ -10,14 +10,14 @@ const WhatsappButton = ({ boatname, phone }) => {
   return (
     <>
       <div className="call-button ">
-        <a href={"tel:" + (phone ?? '+905323283867')}>
+        <a href={"tel:" + (phone ?? '+905320589978')}>
           <FiPhoneCall color="white" size="30px" className="me-2" />
           <span className="live-support-text">{t("callUs")}</span>
         </a>
       </div>
       <div className="whatsapp-chat d-flex   align-items-center">
         <Link
-          href={`https://api.whatsapp.com/send/?phone=${phone ?? "+905323283867"}&text=Merhaba%2C+${
+          href={`https://api.whatsapp.com/send/?phone=${phone ?? "+905320589978"}&text=Merhaba%2C+${
             boatname ?? "hizmetleriniz"
           }+hakk%C4%B1nda+bilgi+almak+istiyorum.&app_absent=0`}
         >
