@@ -11,4 +11,4 @@ export function getStaticProps({ locale }) {
 
 const BogazCocugu = () => <BoatPage boatUrl="yacht-5" />;
 
-export default BogazCocugu;
+
